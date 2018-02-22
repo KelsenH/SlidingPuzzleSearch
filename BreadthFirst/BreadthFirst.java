@@ -3,6 +3,7 @@ import java.util.Random;
 
 class BreadthFirst {
     Board [] initial_boards;
+    Random randnum;
 
     BreadthFirst () {
         initial_boards = new Board []{create_board (), create_board(), create_board()};
